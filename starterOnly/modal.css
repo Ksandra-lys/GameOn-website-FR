@@ -19,8 +19,6 @@ body {
   background-image: url("background.png");
   font-family: var(--font-default);
   font-size: 18px;
-  /*max-width: 1300px;
-  margin: 0 auto;*/
 }
 
 p {
@@ -156,7 +154,6 @@ main {
 }
 
 .content {
-  /*margin: 5% auto;*/
   margin: 1% auto;
   width: 100%;
   max-width: 1200px;
@@ -174,7 +171,6 @@ main {
 
 .modal-body {
   padding: 15px 8%;
-  /*margin: 15px auto;*/
   margin-top: 55px;
 }
 
@@ -204,25 +200,13 @@ input {
 
 .formData[data-error]::after {
   content: attr(data-error);
-  /*font-size: 1.3em;*/
   font-size: 1.5em;
   color: #e54858;
   display: block;
   margin-top: 16px;
   margin-bottom: 7px;
-  /*text-align: right;*/
   line-height: 0.3;
-  opacity: 0;
   transition: 0.3s;
-  /*text-indent: 29px;*/
-}
-
-.formData[data-error-visible="true"]::after {
-  opacity: 1;
-}
-
-.formData[data-error-visible="true"] .text-control {
-  border: 2px solid #e54858;
 }
 
 /*.e {
@@ -238,9 +222,7 @@ input {
 .checkbox-label,
 .checkbox2-label {
   position: relative;
-  /*margin-left: 36px;*/
   margin-left: 70px;
-  /*font-size: 25px;*/
   font-size: 38px;
   font-weight: normal;
 }
@@ -252,8 +234,6 @@ input {
   height: 50px;
   border: 2px solid #279e7a;
   border-radius: 50%;
-  /*text-indent: 29px;
-  white-space: nowrap;*/
   position: absolute;
   left: -60px;
   top: -1px;
@@ -267,8 +247,6 @@ input {
   height: 35px;
   background-color: #279e7a;
   border-radius: 50%;
-  /*text-indent: 29px;*/
-  /*white-space: nowrap;*/
   position: absolute;
   left: 50%;
   top: 50%;
@@ -312,10 +290,6 @@ input {
 
 .close {
   position: absolute;
-  /*right: 10px;
-  top: 15px;
-  width: 32px;
-  height: 32px;*/
   right: 60px;
   top: 50px;
   width: 32px;
@@ -329,9 +303,6 @@ input {
 .close:after {
   position: absolute;
   content: "";
-  /*left: 15px;
-  height: 33px;
-  width: 3px;*/
   left: 15px;
   width: 5px;
   height: 70px;
@@ -353,8 +324,6 @@ input {
   margin: 0 auto;
   margin-top: 30px;
   border-radius: 10px;
-  /*font-size: 1rem;
-  padding: 12px 82px;*/
   font-size: 2rem;
   padding: 25px 120px;
   color: #fff;
@@ -458,7 +427,6 @@ input {
   color: #fff;
   position: relative;
   text-align: left;
-  /*min-width: 424px;*/
   display: flex;
   flex-direction: column;
   gap: 350px;
@@ -565,7 +533,6 @@ footer {
 
 .activation {
   display: flex !important;
-  /*background-color: #000000;*/
 }
 
 .inscription {
@@ -586,8 +553,6 @@ footer {
 
 @media screen and (max-width: 800px) {
   .header-logo img {
-    /*width: 120px;
-    height: 20px;*/
     width: 100px;
     height: 15px;
   }
@@ -641,7 +606,6 @@ footer {
   .hero-content {
     background: #fff;
     color: #000;
-    /*padding: 20px;*/
     padding: 0px;
     gap: 0px;
   }
@@ -720,7 +684,6 @@ footer {
   }
 
   .formData[data-error]::after {
-    /*font-size: 0.4em;*/
     font-size: 10px;
     margin-top: 7px;
     margin-bottom: 7px;
@@ -742,11 +705,8 @@ footer {
 
   .checkbox-label .checkbox-icon,
   .checkbox2-label .checkbox-icon {
-    /*width: 20px;
-    height: 20px;*/
     width: 20px;
     height: 20px;
-    /*text-indent: 29px;*/
     white-space: nowrap;
     left: -25px;
   }
@@ -775,7 +735,6 @@ footer {
   .btn-signup {
     border-radius: 5px;
     font-size: 13px;
-    /*padding: 12px 82px;*/
     padding: 6px 50px;
     margin-top: 10px;
   }
@@ -818,8 +777,6 @@ footer {
 
   .hero-section {
     width: 100%;
-    /*margin: auto;
-    height: 70vh;*/
   }
 
   .hero-content {
@@ -918,8 +875,6 @@ footer {
   }
 
   .checkbox2-label .checkbox-icon::after {
-    /*width: 7px;
-    height: 4px;*/
     width: 10px;
     height: 5px;
     left: 26%;
