@@ -122,11 +122,11 @@ form.addEventListener("submit", (event) => {
   } else {
     errorCheckboxBtn.setAttribute("data-error", "Vous devez vérifier que vous acceptez les conditions.")
   }
-  
+
   if (firstName.length > 2 && firstnameRegExp.test(firstName) && lastName.length > 2 && lastnameRegExp.test(lastName)
     && email !== "" && emailRegExp.test(email) && birthdate !== "" && birthdateValue < validDate &&
     quantity !== "" && isChecked && checkbox1.checked) {
-    form.reset()
+    form.reset() 
     form.style.display = "none"
     validationPage.style.display = "block"
   }
